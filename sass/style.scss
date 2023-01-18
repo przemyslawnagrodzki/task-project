@@ -1,0 +1,58 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 16px;
+}
+h1 {
+font-size: 30px;
+color: white;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2 {
+    font-size: 40px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navigation {
+    background: darkgreen;
+}
+.navigation .row {
+    display:flex;
+    justify-content: space-around;
+}
+h3 {
+ font: size 32px; 
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h4 {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h5 {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1, h2, h3 h4, h5 {
+    display:flex;
+    justify-content: center;
+}
+.Services {
+    background-color: antiquewhite;
+}
+.portfolio {
+    background-color: beige ;
+    flex-wrap: wrap;
+}
+.card {
+ display: flex;
+ flex-wrap: wrap;
+}
+.card-image {
+    height: 300px;
+    object-fit: cover;
+    width: 100%; 
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
